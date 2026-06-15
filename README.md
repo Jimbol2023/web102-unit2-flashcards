@@ -1,6 +1,6 @@
 # Cybersecurity Flashcards
 
-Submitted by: **Moses**
+Submitted by: **Olabode Jimoh**
 
 Time spent: **X hours**
 
@@ -40,6 +40,6 @@ This project uses React state to track the current flashcard and whether the car
 
 ## License
 
-Copyright 2026 Moses
+Copyright 2026 Olabode Jimoh
 
 Licensed under the Apache License, Version 2.0. You may not use this file except in compliance with the License.
