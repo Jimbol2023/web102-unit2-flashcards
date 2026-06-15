@@ -1,16 +1,45 @@
-# React + Vite
+# Cybersecurity Flashcards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submitted by: **Moses**
 
-Currently, two official plugins are available:
+Time spent: **X hours**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Repository: [https://github.com/Jimbol2023/web102-unit2-flashcards](https://github.com/Jimbol2023/web102-unit2-flashcards)
 
-## React Compiler
+## Description
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A beginner-friendly cybersecurity flashcard app built with React and Vite. Users can study common cybersecurity terms by flipping cards and moving to random cards.
 
-## Expanding the ESLint configuration
+## Required Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The following **required** functionality is completed:
+
+- [x] The title of the card set is displayed
+- [x] A short description of the card set is displayed
+- [x] A list of card pairs is created
+- [x] The total number of cards in the set is displayed
+- [x] A single card is displayed at a time
+- [x] Only one half of the information pair is displayed at a time
+- [x] Clicking on a card flips it over
+- [x] Clicking the next button displays a random new card
+
+## Stretch Features
+
+The following **stretch** functionality is completed:
+
+- [x] Cards have different visual styles based on their category
+- [x] Cards have simple hover/flip styling
+
+## GIF Walkthrough
+
+https://www.loom.com/share/10a18a10f0704a9f97cd9d8552ff1fb2
+
+## Notes
+
+This project uses React state to track the current flashcard and whether the card is flipped. The next button chooses a random card, and each card uses category styling to make the study set easier to scan.
+
+## License
+
+Copyright 2026 Moses
+
+Licensed under the Apache License, Version 2.0. You may not use this file except in compliance with the License.
