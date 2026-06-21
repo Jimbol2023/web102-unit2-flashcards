@@ -2,26 +2,24 @@
 
 Submitted by: **Olabode Jimoh**
 
-Time spent: **X hours**
+Time spent: **5 hours**
 
 Repository: [https://github.com/Jimbol2023/web102-unit2-flashcards](https://github.com/Jimbol2023/web102-unit2-flashcards)
 
 ## Description
 
-A beginner-friendly cybersecurity flashcard app built with React and Vite. Users can study common cybersecurity terms by flipping cards and moving to random cards.
+A beginner-friendly cybersecurity flashcard app built with React and Vite. Users can study common cybersecurity terms, type guesses before revealing answers, track their streak, move through cards in order, and shuffle the study set when they want a fresh order.
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] The title of the card set is displayed
-- [x] A short description of the card set is displayed
-- [x] A list of card pairs is created
-- [x] The total number of cards in the set is displayed
-- [x] A single card is displayed at a time
-- [x] Only one half of the information pair is displayed at a time
-- [x] Clicking on a card flips it over
-- [x] Clicking the next button displays a random new card
+- [x] The user can enter their guess in a box before seeing the flipside of the card
+- [x] Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect
+- [x] A back button is displayed on the card and can be used to return to the previous card in a set sequence
+- [x] A next button is displayed on the card and can be used to navigate to the next card in a set sequence
+- [x] The next and back buttons should have a visual indication when the user is at the beginning or end of the list
+- [x] The user answer, feedback, and flipped card state reset when the user moves to another card
 
 ## Stretch Features
 
@@ -29,14 +27,22 @@ The following **stretch** functionality is completed:
 
 - [x] Cards have different visual styles based on their category
 - [x] Cards have simple hover/flip styling
+- [x] A shuffle button randomizes the order of the cards
+- [x] Fuzzy matching accepts answers regardless of capitalization and punctuation
+- [x] Fuzzy matching allows reasonable partial matches
+- [x] A current streak counter is shown
+- [x] A longest streak counter is shown
+- [ ] A mastered-card feature is available
 
 ## GIF Walkthrough
 
-https://www.loom.com/share/10a18a10f0704a9f97cd9d8552ff1fb2
+Add GIF walkthrough here:
+
+![GIF walkthrough](walkthrough.gif)
 
 ## Notes
 
-This project uses React state to track the current flashcard and whether the card is flipped. The next button chooses a random card, and each card uses category styling to make the study set easier to scan.
+This project uses React state to track the current flashcard order, flipped state, guess input, answer feedback, and streak totals. Navigation moves through the current card order without wrapping, while the shuffle button randomizes the order only when clicked.
 
 ## License
 
