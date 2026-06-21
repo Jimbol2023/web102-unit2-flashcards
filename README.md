@@ -34,11 +34,10 @@ The following **stretch** functionality is completed:
 - [x] A longest streak counter is shown
 - [ ] A mastered-card feature is available
 
-## GIF Walkthrough
+## Video Walkthrough
 
-Add GIF walkthrough here:
-
-![GIF walkthrough](walkthrough.gif)
+Loom Demo:
+https://www.loom.com/share/d4c9284da673496696f9cdcffa39275d
 
 ## Notes
 
